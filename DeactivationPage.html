@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LinkedIn Deactivation Page</title>
+    
+</head>
+<body>
+
+    <h1><b>LinkedIn Deactivation</b></h1>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" name="Full Name" id="Full Name">
+
+        <label>Email</label>
+        <input type="email" name="Email" id="Email">
+
+        <label><b>Reason for Deactivation</b></label>
+        <h3><i>Tell us the reason for closing your account</i></h3>
+        <select id="reason" name="reason">
+            <option value="other">Other</option>
+            <option value="duplicate account">I have a duplicate account</option>
+            <option value="Too many emails">I'm getting too many emails</option>
+            <option value="no value from membership">I'm not getting any value from my membership</option>
+            <option value="Privacy concern">I have a privacy concern</option>
+            <option value="Unwanted content">I'm receiving unwanted contact</option>
+        </select>
+
+        <h3>Please provide a little more information to help us improve</h3>
+        <h5>Reason for closing account</h5>
+        <textarea id="Address" name="Address"></textarea>
+    </form>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            margin-top: 30px;
+        }
+        form {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px 30px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        select {
+            background-color: white;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #555;
+        }
+        h5 {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+    </style>
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Regestration form
+        </title>
+    </head>
+    <body bgcolor="Black">
+        
+        <h1 ><b>Student Regestration Form</b></h1>
+        <form>
+            <label for="fname" >First Name  </label>
+            <input type="text" id="fname" name="fname" placeholder="kevin" required><br><br>
+            <label for="lname" >Last Name  </label>
+            <input type="text" id="lname" name="lname" placeholder="Malone" required><br><br>
+            <label for="Email"  >Email </label>
+            <input type="email" id="Email" name="Email" placeholder="kevinMalone@gmail.com" required><br><br>
+            <label for="phone">Phone</label>
+            <input type ="tel" id="tel" name="Phone" placeholder="(91)734-440-000" maxlength="12"><br><br>
+            <label for="DOB">DOB</label>
+            <input type="date" id="Date of Birth" name ="DOB" required><br><br>
+            <label for="title">Gender : </label><br><br>
+
+
+
+            <label >F</label>
+            <input type="radio" name="Gender" value="F">
+            <label >M</label>
+            <input type="radio" name="Gender" value="M">
+            <label>Other</label>
+            <input type="radio" name="Gender" value="Other"><br><br>
+
+            <label for="City" > City  </label>
+            <input type="text" id="City" name="City" placeholder="India" ><br><br>
+            <label for="Pin Code" >Pin Code  </label>
+            <input type="text" id="Pin Code" name="Pin Code" placeholder="517102" required maxlength="6"><br><br>
+            
+            <label for="Address" >Address</label><br><br>
+            <textarea rows="5"  cols="50" id="Address" name="Address"></textarea><br><br>
+             <label for="Grade">12th Grade</label>
+            <select id="Grade" name="Grade">
+            <option value="O">O</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            </select><br><br>
+            <label for="Course"> Course : </label><br>  
+            <label for="Course" style="font-size: small;">CSE</label>
+            <input type="checkbox" name="CSE" value="CSE">
+            <label for="Course" style="font-size: small;">AIML</label>
+            <input type="checkbox" name="AIML" value="AIML">
+            <label for="Course" style="font-size: small;">Cyber Security</label>
+            <input type="checkbox" name="Cyber Security" value="Cyber Security">
+            <label for="Course" style="font-size: small;">Data Science</label>
+            <input type="checkbox" name="Data Science" value="Data Science"><br><br>
+            <label>Submit</label>
+            <input type="Submit"><br><br>
+            <label>Reset</label>  
+            <input type="Reset"><br><br>
+        </form>
+    </body>
+    <style>
+        h1 {
+            color: white;
+            text-align:center;
+            font-size: 50px;
+        }
+        form {
+            color: aliceblue;
+            text-align:justify;
+            font-size:20px;
+            
+        }
+        
+        
+    </style>
+
+</html>
